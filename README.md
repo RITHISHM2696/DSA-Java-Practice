@@ -9,11 +9,12 @@ This repository contains my Data Structures and Algorithms practice in Java.
 - Stack & Queue
 - Recursion
 - Sorting & Searching
-- Trees & Graphs
-- Dynamic Programming
 
 ## Goal
-To crack product-based company interviews by mastering DSA.
+I am a software engineering student with strong foundations in Java, Data Structures and databases. Experienced
+in building AI-powered applications using Spring Boot and React. Passionate about solving real-world problems
+and developing scalable software solutions.
+
 
 ## Features
 - Clean code
