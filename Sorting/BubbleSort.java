@@ -25,5 +25,6 @@ public class BubbleSort {
         object.sort(arr, size);
     }
 }
+// Approach: Bubble Sort(Compare adjacent element and swap them)
 // Time Complexity: O(n^2)
 // Space Complexity: O(1)
