@@ -2,18 +2,23 @@ import java.util.*;
 public class SelectionSort {
     public void sort(int[] arr, int size) {
         for(int i = 0; i < size; i++) {
-            for(int j = 0; j < size - i - 1; j++) {
-                if(arr[j] > arr[j + 1]) {
-                    int temp = arr[j];
-                    arr[j] = arr[j + 1];
-                    arr[j + 1] = temp;
+            int minIndex = i;
+            for(int j = i + 1; j < size; j++) {
+                if(arr[minIndex] > arr[j]) {
+                    minIndex = j;
                 }
             }
-        }
-        for(int i = 0; i < size; i++) {
-            System.out.print(arr[i] + " ");
+            int temp = arr[minIndex];
+            arr[minIndex] = arr[i];
+            arr[i] = temp;
         }
     }
+    public void printArray(int[] arr) {
+        for (int num : arr) {
+            System.out.print(num + " ");
+        }
+    }
+
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         int size = input.nextInt();
@@ -23,10 +28,11 @@ public class SelectionSort {
         }
         SelectionSort object = new SelectionSort();
         object.sort(arr, size);
+        object.printArray(arr);
         input.close();
     }
 }
 
-// Approach: Bubble Sort(Compare adjacent element and swap them if needed)
+// Approach: Selection Sort(Select the smallest element and put it in front)
 // Time Complexity: O(n^2)
 // Space Complexity: O(1)

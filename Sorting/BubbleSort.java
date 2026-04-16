@@ -10,10 +10,13 @@ public class BubbleSort {
                 }
             }
         }
-        for(int i = 0; i < size; i++) {
-            System.out.print(arr[i] + " ");
+    }
+    public void printArray(int[] arr) {
+        for (int num : arr) {
+            System.out.print(num + " ");
         }
     }
+
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         int size = input.nextInt();
@@ -23,6 +26,7 @@ public class BubbleSort {
         }
         BubbleSort object = new BubbleSort();
         object.sort(arr, size);
+        object.printArray(arr);
         input.close();
     }
 }
