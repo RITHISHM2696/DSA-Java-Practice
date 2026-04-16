@@ -1,5 +1,5 @@
 import java.util.*;
-public class BubbleSort {
+public class SelectionSort {
     public void sort(int[] arr, int size) {
         for(int i = 0; i < size; i++) {
             for(int j = 0; j < size - i - 1; j++) {
@@ -21,7 +21,7 @@ public class BubbleSort {
         for(int index = 0; index < size; index++) {
             arr[index] = input.nextInt();
         }
-        BubbleSort object = new BubbleSort();
+        SelectionSort object = new SelectionSort();
         object.sort(arr, size);
         input.close();
     }
