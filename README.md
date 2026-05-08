@@ -14,7 +14,6 @@ I am a software engineering student with strong foundations in Java, Data Struct
 in building AI-powered applications using Spring Boot and React. Passionate about solving real-world problems
 and developing scalable software solutions.
 
-
 ## Features
 - Clean code
 - Optimized solutions
