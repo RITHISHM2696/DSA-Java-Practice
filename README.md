@@ -1,7 +1,6 @@
 # DSA Java Practice
 
 This repository contains my Data Structures and Algorithms practice in Java.
-
 ## Topics Covered
 - Arrays
 - Strings
