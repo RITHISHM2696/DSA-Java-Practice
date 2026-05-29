@@ -16,7 +16,6 @@ public class BubbleSort {
             System.out.print(num + " ");
         }
     }
-
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         int size = input.nextInt();
